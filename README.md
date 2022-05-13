@@ -7,3 +7,4 @@ The contents will include
  - How to use Nautilus Cloud Computing 
  - Making graphs from parameters
  - Making the 3G ESP Path Data 
+ - how to open and run qiime within Nautilus
