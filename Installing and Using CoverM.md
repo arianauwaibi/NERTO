@@ -36,7 +36,7 @@ Proper syntax
 
   `coverm -1 <the path>`
 
-    >The home part of the path does not have be included. Only include the folder the files are in as the path name. `/home/jovyan/` not needed. Command `pwd` can be used in the linux terminal to access the file path. 
+  *The home part of the path does not have be included. Only include the folder the files are in as the path name. `/home/jovyan/` not needed. Command `pwd` can be used in the linux terminal to access the file path.*
 
 **Reverse FASTA/Q file**
 
