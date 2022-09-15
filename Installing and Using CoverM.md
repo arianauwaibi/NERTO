@@ -3,11 +3,15 @@
 ## Installing CoverM
 >*CoverM can only be used in Linux*
 
-`conda update conda`
+```
+conda update conda
+```
 
 [![Anaconda-Server Badge](https://anaconda.org/bioconda/coverm/badges/installer/conda.svg)](https://conda.anaconda.org/bioconda)
 
-`conda install -c bioconda coverm`
+```
+conda install -c bioconda coverm
+```
 
 To comfirm CoverM was properly installed
 ```
@@ -42,4 +46,6 @@ Proper syntax
   $ coverm contig --coupled read1.fastq.gz read2.fastq.gz --reference assembly.fna
 
 **This code did not give me an error**
+```
 coverm contig -1 Sample_134807_R1_trim.fastq.gz -2 Sample_134807_R2_trim.fastq.gz --reference reference_strains/strain_BS13-02.fna.gz
+```
