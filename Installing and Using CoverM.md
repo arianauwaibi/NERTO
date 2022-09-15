@@ -79,6 +79,9 @@ coverm contig -1 Sample_134807_R1_trim.fastq.gz -2 Sample_134807_R2_trim.fastq.g
 ```
 
 **5. --mapper *default: minimap2-sr**
+
 **6. Alignment Thresholding**
+
 **7.  --methods *default: mean**
+
 **8.  --output (file)**
