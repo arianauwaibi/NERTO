@@ -10,7 +10,9 @@
 `conda install -c bioconda coverm`
 
 To comfirm CoverM was properly installed
-`coverm --help`
+```
+coverm --help
+```
 
 ## Using CoverM
 
@@ -20,25 +22,24 @@ Proper syntax
 
 1. Main Command (coverm)
 2. Sub Command (contig)
-3. 
+3. file name or path needed for subcommand
+4. Any other subcommands needed
+5. Reference
 
-Input the Pair Ended Reads
+#### Input the Pair Ended Reads
 
 **Forward FASTA/Q file**
-`coverm -1 <the path>`
 
-Sample 134807 Read 1 Path: 
-/home/jovyan/Sample_134807_R1_trim.fastq.gz
+  `coverm -1 <the path>`
 
-`coverm -1 /home/jovyan/Sample_134807_R1_trim.fastq.gz`
+    >The home part of the path does not have be included. Only include the folder the files are in as the path name. `/home/jovyan/` not needed. Command `pwd` can be used in the linux terminal to access the file path. 
 
 **Reverse FASTA/Q file**
-`coverm -2 <the path>`
-/home/jovyan/Sample_134807_R2_trim.fastq.gz
 
+  `coverm -2 <the path>`
 
 **Company Example**
-$ coverm contig --coupled read1.fastq.gz read2.fastq.gz --reference assembly.fna
+  $ coverm contig --coupled read1.fastq.gz read2.fastq.gz --reference assembly.fna
 
-
-coverm contig -1 Sample_134807_R2_trim.fastq.gz --reference 
+**This code did not give me an error**
+coverm contig -1 Sample_134807_R1_trim.fastq.gz -2 Sample_134807_R2_trim.fastq.gz --reference reference_strains/strain_BS13-02.fna.gz
