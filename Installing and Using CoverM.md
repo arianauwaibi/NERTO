@@ -49,3 +49,16 @@ Proper syntax
 ```
 coverm contig -1 Sample_134807_R1_trim.fastq.gz -2 Sample_134807_R2_trim.fastq.gz --reference reference_strains/strain_BS13-02.fna.gz
 ```
+
+
+
+### The Commands needed for Success
+
+1. Main command- CoverM
+2. -1 (forward read)
+3. -2 (reverse read)
+4. --reference 
+5. --mapper *default: minimap2-sr*
+6. Alignment Thresholding
+7.  --methods *default: mean*
+8.  --output (file)
