@@ -54,31 +54,31 @@ coverm contig -1 Sample_134807_R1_trim.fastq.gz -2 Sample_134807_R2_trim.fastq.g
 
 ### The Commands needed for Success
 
-1. Main command- CoverM
+**1. Main command- CoverM**
  
  ```
   coverm
   ```
 
-2. -1 (forward read)
+**2. -1 (forward read)**
 
 ```
 -1 Sample_134807_R1_trim.fastq.gz
 ```
 
-3. -2 (reverse read)
+**3. -2 (reverse read)**
 
 ```
 -2 Sample_134807_R2_trim.fastq.gz
 ```
 
-4. --reference 
+**4. --reference** 
 
 ```
 --reference reference_strains/strain_BS13-02.fna.gz
 ```
 
-5. --mapper *default: minimap2-sr*
-6. Alignment Thresholding
-7.  --methods *default: mean*
-8.  --output (file)
+**5. --mapper *default: minimap2-sr**
+**6. Alignment Thresholding**
+**7.  --methods *default: mean**
+**8.  --output (file)**
